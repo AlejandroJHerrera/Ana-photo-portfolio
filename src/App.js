@@ -1,5 +1,7 @@
 import Home from './views/Home';
 
+//Añadir react routing
+
 function App() {
   return <Home />;
 }

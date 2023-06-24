@@ -1,12 +1,13 @@
 function Header() {
+  //Añadir responsiveness
   return (
-    <div className="relative ">
+    <div className="relative w-full">
       <img
         src="./WhatsApp Image 2023-06-17 at 11.37.39 AM (1).jpeg"
-        alt="header-photo"
-        className="object-contain h-full "
+        alt="header"
+        className="object-contain w-full "
       />
-      <div className="absolute w-48 top-56 left-20 ">
+      <div className="absolute w-56 top-80 left-40 ">
         <h1 className="text-slate-200 font-bold text-2xl text-opacity-100">
           DO IT FOR THE 'GRAM? NAHH! I'M JUST KIDDING.
         </h1>
@@ -14,6 +15,11 @@ function Header() {
           THE PRETTIEST PHOTOS IN PRETTY PLACES OF BEAUTIFUL PEOPLE. LET'S GO ON
           AN AVENTURE AND CAPTURE THOSE MEMORIES
         </p>
+        <div className="mt-5">
+          <button className="bg-buttons text-slate-200 italic p-2 rounded-md ml-4">
+            Book with me!
+          </button>
+        </div>
       </div>
     </div>
   );

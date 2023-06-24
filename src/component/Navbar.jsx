@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Navbar() {
   return (
     <nav className="h-30 py-10 bg-brown">
