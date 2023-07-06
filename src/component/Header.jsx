@@ -5,9 +5,9 @@ function Header() {
       <img
         src="./WhatsApp Image 2023-06-17 at 11.37.39 AM (1).jpeg"
         alt="header"
-        className="object-contain w-full "
+        className="object-contain w-[1100px] h-[680px]"
       />
-      <div className="absolute w-56 top-80 left-40 ">
+      <div className="absolute w-56 top-56 left-32 ">
         <h1 className="text-slate-200 font-bold text-2xl text-opacity-100">
           DO IT FOR THE 'GRAM? NAHH! I'M JUST KIDDING.
         </h1>
